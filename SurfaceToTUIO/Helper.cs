@@ -9,16 +9,17 @@ namespace SurfaceToTUIO
 {
     public class Helper
     {
-        public static StringCollection getLocalIP()
+        public static string getLocalIP()
         {
-            StringCollection localIP = new StringCollection();
-            string localHostName = Dns.GetHostName();
-            IPHostEntry hostEntry = Dns.GetHostEntry(localHostName);
-            foreach (IPAddress ipAddr in hostEntry.AddressList)
-            {
-                localIP.Add(ipAddr.ToString());
-            }
-            return localIP;
+
+            // originally, this code was using Dns.GetHostEntry
+            // to find ip address of this machine,
+            // which would return different quantities and ipaddresses
+            // depending on if the Surface was connected to the internet or not.
+
+            // We only want the Surface Input to be transmitted locally,
+            // so I've simplified this by always returning a local address.
+            return "127.0.0.1";
         }
     }
 }

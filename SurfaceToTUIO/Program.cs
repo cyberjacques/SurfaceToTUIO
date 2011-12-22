@@ -84,14 +84,14 @@ namespace SurfaceToTUIO
 
             if (Window != null)
             {
-                Window.ClientSizeChanged -= new EventHandler(OnSetWindowPosition);
-                Window.ScreenDeviceNameChanged -= new EventHandler(OnSetWindowPosition);
+                Window.ClientSizeChanged -= new EventHandler<EventArgs>(OnSetWindowPosition);
+                Window.ScreenDeviceNameChanged -= new EventHandler<EventArgs>(OnSetWindowPosition);
             }
 
             Window = window;
 
-            Window.ClientSizeChanged += new EventHandler(OnSetWindowPosition);
-            Window.ScreenDeviceNameChanged += new EventHandler(OnSetWindowPosition);
+            Window.ClientSizeChanged += new EventHandler<EventArgs>(OnSetWindowPosition);
+            Window.ScreenDeviceNameChanged += new EventHandler<EventArgs>(OnSetWindowPosition);
 
             UpdateWindowPosition();
         }

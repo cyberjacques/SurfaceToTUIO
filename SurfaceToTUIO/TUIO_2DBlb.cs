@@ -42,7 +42,7 @@ namespace SurfaceToTUIO
     {
         public static OSCMessage sourceMessage()
         {
-            StringCollection localIP = Helper.getLocalIP();
+            string localIP = Helper.getLocalIP();
 
             OSCMessage message = new OSCMessage("/tuio/2Dblb");
             message.Append("source");

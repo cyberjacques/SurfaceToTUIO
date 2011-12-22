@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SurfaceToTUIO">
+</Property><Property Name="Solution File" Value="C:\dev\SurfaceToTUIO\SurfaceToTUIO.sln">
+</Property><Property Name="User Options File" Value="C:\dev\SurfaceToTUIO\SurfaceToTUIO.suo">
+</Property><Property Name="Date" Value="Wednesday, December 21, 2011">
+</Property><Property Name="Time" Value="11:44 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SurfaceToTUIO.sln" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SurfaceToTUIO.suo" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO.suo">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\SurfaceToTUIO.csproj" Description="Project file successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\SurfaceToTUIO.csproj">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\Helper.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\Helper.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\OSC\OSCBundle.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\OSC\OSCBundle.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\OSC\OSCMessage.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\OSC\OSCMessage.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\OSC\OSCPacket.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\OSC\OSCPacket.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\OSC\OSCReceiver.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\OSC\OSCReceiver.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\OSC\OSCTransmitter.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\OSC\OSCTransmitter.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\Program.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\Program.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\App1.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\App1.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\Settings.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\Settings.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\TUIO_2DBlb.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\TUIO_2DBlb.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\TUIO_2DCur.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\TUIO_2DCur.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\TUIO_2DObj.cs" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\TUIO_2DObj.cs">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\app.config" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\app.config">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\Properties\Settings.settings" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\Resources\icon.png" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\Resources\icon.png">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\Resources\iconPreview.png" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\Resources\iconPreview.png">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\SurfaceToTUIO.xml" Description="File successfully backed up as C:\dev\SurfaceToTUIO VS2008\Backup\SurfaceToTUIO\SurfaceToTUIO.xml">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\SurfaceToTUIO.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SurfaceToTUIO" Source="SurfaceToTUIO\SurfaceToTUIO.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SurfaceToTUIO.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SurfaceToTUIO.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SurfaceToTUIO" Source="SurfaceToTUIO\SurfaceToTUIO.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

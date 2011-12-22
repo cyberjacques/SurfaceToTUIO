@@ -1,0 +1,12 @@
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Debug\SurfaceToTUIO.exe.config
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Debug\Resources\icon.png
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Debug\Resources\iconPreview.png
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Debug\SurfaceToTUIO.exe
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Debug\SurfaceToTUIO.pdb
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Debug\SurfaceToTUIO.exe
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Debug\SurfaceToTUIO.pdb
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Debug\SurfaceToTUIO.exe.manifest
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Debug\SurfaceToTUIO.application
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Debug\SurfaceToTUIO.exe.manifest
+C:\dev\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Debug\SurfaceToTUIO.application

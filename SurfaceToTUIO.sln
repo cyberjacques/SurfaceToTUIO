@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurfaceToTUIO", "SurfaceToTUIO\SurfaceToTUIO.csproj", "{02ADC3C9-AB82-4081-BF9A-BABC463073D4}"
 EndProject
 Global
