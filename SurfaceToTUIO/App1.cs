@@ -39,6 +39,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Forms;
 using Microsoft.Surface;
 using Microsoft.Surface.Core;
 using Microsoft.Xna.Framework;
@@ -59,7 +60,6 @@ namespace SurfaceToTUIO
     {
         private OSCTransmitter _OSCSender { get; set; }
 
-        private readonly GraphicsDeviceManager graphics;
         private ContactTarget contactTarget;
         private UserOrientation currentOrientation = UserOrientation.Bottom;
         private Color backgroundColor = new Color(81, 81, 81);
@@ -88,14 +88,6 @@ namespace SurfaceToTUIO
         private Dictionary<int, long> _angularVelocityTimestamp = new Dictionary<int, long>();
         private Dictionary<int, Vector2> _lastVelocity = new Dictionary<int, Vector2>();
         private Dictionary<int, float> _lastAngularVelocity = new Dictionary<int, float>();
-
-        /// <summary>
-        /// The graphics device manager for the application.
-        /// </summary>
-        protected GraphicsDeviceManager Graphics
-        {
-            get { return graphics; }
-        }
 
         /// <summary>
         /// The target receiving all surface input for the application.
@@ -154,7 +146,10 @@ namespace SurfaceToTUIO
         /// </summary>
         public App1()
         {
-            graphics = new GraphicsDeviceManager(this);
+            Program.PositionWindow(Window);
+
+            Form form = (Form)Form.FromHandle(Window.Handle);
+            
         }
 
         /// <summary>
@@ -179,14 +174,14 @@ namespace SurfaceToTUIO
             ApplicationLauncher.ApplicationDeactivated += OnApplicationDeactivated;
 
             // Setup the UI to transform if the UI is rotated.
-            if (currentOrientation == UserOrientation.Top)
-            {
+            //if (currentOrientation == UserOrientation.Top)
+            //{
                 // Create a rotation matrix to orient the screen so it is viewed correctly when the user orientation is 180 degress different.
-                Matrix rotation = Matrix.CreateRotationZ(MathHelper.ToRadians(180));
-                Matrix translation = Matrix.CreateTranslation(graphics.GraphicsDevice.Viewport.Width, graphics.GraphicsDevice.Viewport.Height, 0);
+                //Matrix rotation = Matrix.CreateRotationZ(MathHelper.ToRadians(180));
+                //Matrix translation = Matrix.CreateTranslation(graphics.GraphicsDevice.Viewport.Width, graphics.GraphicsDevice.Viewport.Height, 0);
 
-                screenTransform = rotation * translation;
-            }
+                //screenTransform = rotation * translation;
+            //}
 
             base.Initialize();
             //int port = 0;
@@ -212,17 +207,7 @@ namespace SurfaceToTUIO
 
             // Make sure the graphics device has the correct back buffer size.
             InteractiveSurface interactiveSurface = InteractiveSurface.DefaultInteractiveSurface;
-            if (interactiveSurface != null)
-            {
-                graphics.PreferredBackBufferWidth = interactiveSurface.Width;
-                graphics.PreferredBackBufferHeight = interactiveSurface.Height;
-                graphics.ApplyChanges();
 
-                // Remove the border and position the window.
-                Program.RemoveBorder(Window.Handle);
-                Program.PositionWindow(Window);
-
-            }
         }
 
         /// <summary>
@@ -244,14 +229,6 @@ namespace SurfaceToTUIO
             //contactTarget = new ContactTarget(Window.Handle, EventThreadChoice.OnBackgroundThread);
             contactTarget = new ContactTarget(IntPtr.Zero, true);
             contactTarget.EnableInput();
-        }
-
-        /// <summary>
-        /// Load your graphics content.
-        /// </summary>
-        protected override void LoadContent()
-        {
-            // TODO: Load any content
         }
 
         /// <summary>
@@ -823,7 +800,7 @@ namespace SurfaceToTUIO
 
             //TODO: Rotate the UI based on the value of screenTransform here if desired
 
-            graphics.GraphicsDevice.Clear(backgroundColor);
+            //graphics.GraphicsDevice.Clear(backgroundColor);
 
             //TODO: Add your drawing code here
             //TODO: Avoid any expensive logic if application is neither active nor previewed

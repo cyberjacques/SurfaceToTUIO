@@ -64,16 +64,6 @@ namespace SurfaceToTUIO
         }
 
         /// <summary>
-        /// Sets the window style for the specified HWND to None.
-        /// </summary>
-        /// <param name="hWnd">the handle of the window</param>
-        internal static void RemoveBorder(IntPtr hWnd)
-        {
-            Form form = (Form)Form.FromHandle(hWnd);
-            form.FormBorderStyle = FormBorderStyle.None;
-        }
-
-        /// <summary>
         /// Registers event handlers and sets the initial position of the game window.
         /// </summary>
         /// <param name="window">the game window</param>
@@ -82,40 +72,14 @@ namespace SurfaceToTUIO
             if (window == null)
                 throw new ArgumentNullException("window");
 
-            if (Window != null)
-            {
-                Window.ClientSizeChanged -= new EventHandler<EventArgs>(OnSetWindowPosition);
-                Window.ScreenDeviceNameChanged -= new EventHandler<EventArgs>(OnSetWindowPosition);
-            }
-
             Window = window;
-
-            Window.ClientSizeChanged += new EventHandler<EventArgs>(OnSetWindowPosition);
-            Window.ScreenDeviceNameChanged += new EventHandler<EventArgs>(OnSetWindowPosition);
-
-            UpdateWindowPosition();
-        }
-
-        /// <summary>
-        /// When the ScreenDeviceChanges or the ClientSizeChanges update the Windows Position.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private static void OnSetWindowPosition(object sender, EventArgs e)
-        {
-            UpdateWindowPosition();
-        }
-
-        /// <summary>
-        /// Use the Desktop bounds to update the the position of the Window correctly.
-        /// </summary>
-        private static void UpdateWindowPosition()
-        {
             IntPtr hWnd = Window.Handle;
             Form form = (Form)Form.FromHandle(hWnd);
-            form.SetDesktopLocation(InteractiveSurface.DefaultInteractiveSurface.Left - (Window.ClientBounds.Left - form.DesktopBounds.Left),
-                                    InteractiveSurface.DefaultInteractiveSurface.Top - (Window.ClientBounds.Top - form.DesktopBounds.Top));
+            form.ShowInTaskbar = false;
+            form.FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            form.SetDesktopBounds(-100, -100, 10, 10);
         }
+      
     }
 }
 

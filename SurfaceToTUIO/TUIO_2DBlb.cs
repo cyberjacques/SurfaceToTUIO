@@ -46,7 +46,7 @@ namespace SurfaceToTUIO
 
             OSCMessage message = new OSCMessage("/tuio/2Dblb");
             message.Append("source");
-            message.Append("surface@" + localIP[3]);
+            message.Append("surface@" + localIP);
             return message;
         }
         public static OSCMessage aliveMessage(ReadOnlyContactCollection contacts)
