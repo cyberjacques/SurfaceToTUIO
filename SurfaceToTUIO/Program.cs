@@ -71,7 +71,7 @@ namespace SurfaceToTUIO
         {
             if (window == null)
                 throw new ArgumentNullException("window");
-
+            
             Window = window;
             IntPtr hWnd = Window.Handle;
             Form form = (Form)Form.FromHandle(hWnd);
