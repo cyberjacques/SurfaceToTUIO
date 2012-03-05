@@ -22,3 +22,15 @@ C:\Users\bmgc\Desktop\JoeProgram-SurfaceToTUIO-1c828c4\SurfaceToTUIO\bin\x86\Rel
 C:\Users\bmgc\Desktop\JoeProgram-SurfaceToTUIO-1c828c4\SurfaceToTUIO\obj\x86\Release\ResolveAssemblyReference.cache
 C:\Users\bmgc\Desktop\JoeProgram-SurfaceToTUIO-1c828c4\SurfaceToTUIO\obj\x86\Release\SurfaceToTUIO.exe.manifest
 C:\Users\bmgc\Desktop\JoeProgram-SurfaceToTUIO-1c828c4\SurfaceToTUIO\obj\x86\Release\SurfaceToTUIO.application
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Release\SurfaceToTUIO.exe.config
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Release\Resources\icon.png
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Release\Resources\iconPreview.png
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Release\SurfaceToTUIO.exe.manifest
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Release\SurfaceToTUIO.application
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Release\SurfaceToTUIO.exe
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\bin\x86\Release\SurfaceToTUIO.pdb
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Release\ResolveAssemblyReference.cache
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Release\SurfaceToTUIO.exe.manifest
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Release\SurfaceToTUIO.application
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Release\SurfaceToTUIO.exe
+C:\msysgit\msysgit\git\SurfaceToTUIO\SurfaceToTUIO\obj\x86\Release\SurfaceToTUIO.pdb
