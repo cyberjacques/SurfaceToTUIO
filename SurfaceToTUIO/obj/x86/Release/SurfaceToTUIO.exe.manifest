@@ -92,14 +92,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SurfaceToTUIO.exe" size="26624">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SurfaceToTUIO.exe" size="24064">
       <assemblyIdentity name="SurfaceToTUIO" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>BqMZg9jmDD85mKRl/0Bo+Z05jkk=</dsig:DigestValue>
+        <dsig:DigestValue>BXbXBaZvS1nky2D60ARShIw78RQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -127,7 +127,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>ck/QP5AIUgp34unWQPkrpQ0gye4=</dsig:DigestValue>
+      <dsig:DigestValue>emRkNLQR8DIV6AVSeBi8YJd6HCk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SurfaceToTUIO.xml" size="2353" writeableType="applicationData">
